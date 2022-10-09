@@ -4,7 +4,7 @@ from Cython.Build import cythonize;
 from Cython.Compiler import Options
 Options.infer_types = True
 Options.language_level = 3
-extensions = [Extension('ramdr',['./ramdr.py'])];
+extensions = [Extension('ramdr',['ramdr/ramdr.py'])];
 setuptools.setup(
      name='ramdr',  
      version='1.0',
